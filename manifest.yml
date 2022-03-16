@@ -1,0 +1,8 @@
+---
+applications:
+- name: pythonSampleApp
+  host: myhost
+  path: ./
+  memory: 128M
+  buildpack: python_buildpack
+  command: python server.py
